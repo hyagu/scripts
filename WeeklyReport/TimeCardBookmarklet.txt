@@ -1,0 +1,8 @@
+checkVal:
+javascript:alert("rdtype="+$("#rdtype")[0].value+"\n"+"selServiceType="+$("#selServiceType")[0].value+"\n"+"selServiceType1="+$("#selServiceType1")[0].value+"\n"+"selSubjectArea="+$("#selSubjectArea")[0].value+"\n"+"selSubject="+$("#selSubject")[0].value+"\n"+"selModel="+$("#selModel")[0].value+"\n");$('#calendar').click()
+
+load:
+javascript:$("#rdtype").val(1);$("#rdtype").change();$("#selServiceType").val(87);loadselSubjectArea();$("#selServiceType").val(87);$("#selSubjectArea").val(141);loadSubject();$("#selServiceType").val(87);$("#selSubjectArea").val(141);$("#selSubject").val(597);loadModel();$("#selServiceType").val(87);$("#selSubjectArea").val(141);$("#selSubject").val(597);$("#selModel").val(3004);
+
+fill:
+javascript:$("#selServiceType").val(87);$("#selSubjectArea").val(141);$("#selSubject").val(597);$("#selModel").val(3004);var input=prompt("Enter:","");var start=input.slice(0,4)+'-'+input.slice(4,6)+'-'+input.slice(6,8)+' '+input.slice(9,11)+':'+input.slice(11,13);var end=input.slice(0,4)+'-'+input.slice(4,6)+'-'+input.slice(6,8)+' '+input.slice(16,18)+':'+input.slice(18,20);var comment=input.slice(23).replace(/\r\n/g,"");$("#start").val(start);$("#end").val(end);$("#txtDescription").val(comment);
