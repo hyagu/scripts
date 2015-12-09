@@ -20,7 +20,7 @@ done
 #----- clean -----#
 echo "clean $PROJECT_ROOT"
 cd $PROJECT_ROOT
-rm -rf 
+rm -rf *
 rm -rf *.repo
 
 repo init -u $REPO_URL -b $CURRENT_BRANCH
