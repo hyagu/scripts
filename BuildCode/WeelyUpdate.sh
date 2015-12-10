@@ -33,6 +33,6 @@ make DM_VERITY=false -j8 mtk_clean
 
 sh ../EditAdb.sh
 
-make DM_VERITY=false GMS_ENABLE=true ADB_ENABLE=true -j8 mtk_build 2>&1 | tee make.log
+make DM_VERITY=false ADB_ENABLE=true -j8 mtk_build 2>&1 | tee make.log
 
 
