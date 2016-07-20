@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "edit adb ----"
-ROOT=/extspace/HTV/2K15_L/devprod
+ROOT=/home/ktchen/HTV/devprod
 DEFAULT=$ROOT/device/tpvision/mtk_common/configs/default.prop
 ADBNET=$ROOT/device/tpvision/mtk_common/configs/script/adb_net.sh
 ADBUSB=$ROOT/device/tpvision/mtk_common/configs/script/adb_usb.sh
